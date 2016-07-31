@@ -1,0 +1,17 @@
+#footnote{
+	border-top: 1px solid #ccc;
+	text-align: center;
+	padding: 0;
+/*	position:fixed;
+	width: 100%;
+    left:0px;
+    bottom:0px;
+    height:60px;*/
+}
+
+#footnote p{
+	font-size: 10px;
+	margin: 0;
+	padding: 20px 0 20px 0;
+	color: black;
+}

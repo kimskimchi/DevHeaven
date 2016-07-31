@@ -1,0 +1,18 @@
+List of default profiles:
+	admin_liz	123456
+	kev		123
+
+Tester Login for facebook:
+csc309a4p2@gmail.com
+
+
+------------
+	There is always one current update displayed at the dashboard. (admin messages)
+	There can be only one current update in admin_updates table
+X	When there is a new message/update from the admin, the previous update's 'current' value 
+		in the table 'updates_admin' is set to 0.
+X	Messages (# of new messages)
+		eg)  Messages (2)
+X	Unread messages will be bolded
+------------
+X	A user can only be hired for at most 5 apps at a time. (quality over quantity)

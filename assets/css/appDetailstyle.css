@@ -1,0 +1,159 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Rockwell, serif;
+}
+
+section{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+
+}
+
+#wrapper{
+	margin-top: 50px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+#applyAppTop{
+/*	border-bottom: 2px solid #000000;*/
+/*	border-left: 2px solid #000000;*/
+	margin-bottom: 50px;
+	margin-top: 0;
+	text-align: center;
+}
+
+/*#applyAppTop img{
+	float:left;
+	width: 15%;
+}
+
+#applyAppTop div{
+	text-align: center;
+	float:left;
+	left: 15%;
+	width: 84%;
+	padding: 0 0 0 1%;
+	border-left: 2px solid #000000;
+	list-style: none;
+	height: 100%;
+	position: absolute;
+}*/
+#applyAppTop h2{
+	padding: 0;
+	margin: 0;
+	font-size: 28px;
+}
+
+#detailmenu div{
+	padding: 2% 0 2% 0;
+	float:left;
+	width: 24.3%;
+	padding-left: 0.5%;
+	text-align: center;
+	cursor: pointer;
+}
+#detailmenuOwnerNotes{
+	border-right: 1px solid #ddd;
+}
+#detailmenuDescription{
+	border-right: 1px solid #ddd;
+}
+#detailmenuLookingfor{
+	border-right: 1px solid #ddd;
+}
+/*#detail{
+	border-left: 2px solid #000000;
+}*/
+#detail h2{
+	padding: 2% 0 0 25%;
+}
+#detail p{
+	padding: 4.5% 25% 0 25%;
+	margin-bottom: 3%;
+	line-height: 200%;
+}
+
+
+#dis{
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+#discussionTitle{
+	border-bottom: 1px solid #ddd;
+}
+#discussionTitle h2{
+	font-size: 20px;
+}
+#discussionTitle div{
+	padding: 2% 0 2% 0;
+	float:left;
+	padding-left: 0.5%;
+	text-align: center;
+	font-size: 14px;
+	height: 100%;
+}
+
+#discussionTitleIssues{
+	width: 33%;
+	cursor: pointer;
+	border-left: 1px solid #ddd;
+}
+#discussionTitleRecommendation{
+	border-left: 1px solid #ddd;
+	width: 33%;
+	cursor: pointer;
+}
+#discussionTitleGeneral{
+	border-left: 1px solid #ddd;
+	width: 33%;
+	cursor: pointer;
+}
+
+.scrollable {
+    height: 400px; /* or any value */
+    overflow-y: auto;
+}
+#discussion{
+	height: 400px;
+}
+
+#discussion ul{
+	list-style: none;
+}
+
+#addComment{
+	/*border-bottom: 2px solid #000000;
+	border-left: 2px solid #000000;*/
+	margin-bottom: 20px;
+}
+#addComment textarea{
+	margin-top: 1%;
+	margin-left: 25%;
+	width: 50%;
+}
+#addComment div{
+	margin: 1% 0 1% 25%;
+}
+
+
+#detailmenu{
+	border-bottom: 2px solid #ddd;
+/*	border-left: 2px solid #000000;*/
+}
+
+
+
+
+.Hidden{
+    display: none;
+}

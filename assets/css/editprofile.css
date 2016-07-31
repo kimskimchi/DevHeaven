@@ -1,0 +1,97 @@
+body{
+	padding: 0; 
+	margin: 0;
+	font-family: Rockwell, serif;
+}
+
+
+section{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+h2{
+	text-align: center;
+}
+
+#wrapper{
+	margin-top: 50px;
+}
+
+
+
+a:hover{
+    text-decoration: none;
+}
+
+
+form {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 66%;
+    color: black;
+}
+
+div.form_element {
+    margin: 1rem;
+}
+
+label1 {
+    cursor: pointer;
+    display: block;
+    margin: 2rem 0;
+}
+label1:first-child {
+    margin-top: 0;
+}
+label1:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+label1 span.label {
+    float: left;
+    display: block;
+    width: 20rem;
+}
+label1 span.error {
+    color: red;
+    padding-left: 1rem;
+}
+
+label1 input {
+    float: left;
+}
+
+
+option{
+	font-size: 15px;
+}
+textarea {
+    max-width: 100%;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    margin: 3rem 0;
+}
+
+
+
+/* STYLING FIELDS WITH ERRORS */
+/* New pseudo-classes to style fields that have an error: */
+/* :valid, :invalid, :required, :optional, :in-range, :out-of-range */
+
+input:invalid {
+  outline: 2px solid red;
+  background-color: #FFC6B3;
+}
+
+.btn-primary
+{
+    height:25px;
+    width:100px;
+}

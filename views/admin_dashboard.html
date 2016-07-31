@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DevHeaven</title>
+        <script type="text/javascript" src="scripts/jquery-2.2.4.min.js" defer></script><!-- jQuery should be first -->
+        <script type="text/javascript" src="scripts/admin_dashboard.js" defer></script>
+    </head>
+
+    <body>
+        <div>
+            <h1>Welcome, administrator {{session.username}}</h1>
+        </div>
+        <a href="logout">Logout</a>
+
+        <section id="users">
+        </section>
+
+        <section id="rest">
+                <form method ="post" action="/deleteuser_admin" >
+                    <input type="text" name="name" placeholder="Please type in username" autofocus="autofocus" onkeypress="if (event.keyCode == 13) handle(event)">
+                    <button type="submit" id="deleteuser">Delete a specific user</button>
+                </form>
+                <br>
+                <form method="post" action="/adduser_admin">
+                <input type="text" name="email" placeholder="Email" required="required" class="input"/>
+                <input type="text" name="username" placeholder="Username" required="required" class="input"/>
+                <input type="password" name="password" placeholder="Password" required="required" class="input"/>
+                <input type="password" name="password_confirm" placeholder="Retype password" required="required" class="input"/>
+                <input type="text" name="first_name" placeholder="First name" required="required" class="input"/>
+                <input type="text" name="last_name" placeholder="Last name" required="required" class="input"/>
+                <button type="submit" id="adduser">Add a user</button>
+                </form>
+                <br>
+            </section>
+
+
+    </body>
+</html>

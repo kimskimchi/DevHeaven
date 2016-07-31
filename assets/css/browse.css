@@ -1,0 +1,99 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Rockwell, serif;
+}
+section{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+
+}
+
+#wrapper{
+	margin-top: 50px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.Hidden{
+    display: none;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+
+section#search {
+	margin: 10px;
+	width: 100%;
+}
+
+section#pageTitle {
+	width: 30%;
+	float: left;
+}
+section#pageTitle h1{
+	width: 30%;
+	float: left;
+	font-size: 30px;
+}
+section#searchform {
+	width: 65%;
+	float: left;
+	padding-top: 12px;
+}
+
+section#listing {
+/*	border: 2px solid #000000;*/
+	margin-top: 30px;
+	height: auto;
+	float: left;
+/*	height: 150vh;*/
+}
+
+article.applisting {
+	border-top: solid 1px #ddd;
+	padding: 2% 0% 2% 3%;
+}
+
+section.appLogo {
+	float: left;
+	width: 15%;
+	min-width: 100px;
+}
+section.appLogo img {
+	max-width: 100px;
+	width: 100%;
+	min-width: 80px;
+}
+
+section.appNameCreator {
+	float: right;
+	max-width: 85%;
+
+}
+
+
+
+article.applisting h2 {
+	float: left;
+	padding: 2%;
+	width: 82%;
+	height:
+}

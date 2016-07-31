@@ -1,0 +1,244 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Rockwell, serif;
+}
+
+section{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+#wrapper{
+	margin-top: 50px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#page-content-wrapper{
+	top: 30%;
+}
+
+#profileTop{
+	border-bottom: 2px solid #000000;
+	border-left: 2px solid #000000;
+}
+
+#profileTop img{
+	float:left;
+	width: 15%;
+}
+
+#profileTop div{
+	text-align: center;
+	float:left;
+	left: 15%;
+	width: 65%;
+	padding: 0 0 0 1%;
+	border-right: 2px solid #000000;
+	border-left: 2px solid #000000;
+	list-style: none;
+	height: 100%;
+	position: absolute;
+}
+#profileTop h2{
+	padding: 4.5% 0 0 0;
+	margin: 0;
+}
+
+/*credit to http://www.bestcssbuttongenerator.com*/
+
+button {
+	left: 86%;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	background-color:#476e9e;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+
+#profile1{
+	border-left: 2px solid #000000;
+	border-bottom:2px solid black;
+	border-top:0;
+}
+
+#profile1 #detail
+{
+	border: 2px solid black;
+	border-bottom:0;
+	border-top:0;
+	border-left:0;
+	width:15%;
+	padding-top:100px;
+	padding-bottom:114px;
+	float:left;
+	border-left:0;
+
+}
+
+#profile1 #detail h2
+{
+	padding-left: 20px;
+}
+
+#profile1 #details
+{
+	display:inline-block;
+	width:75%;
+	border-bottom:0;
+	padding-left: 2%;
+}
+
+
+#profile2{
+	border-left: 2px solid #000000;
+	border-bottom:2px solid black;
+	border-top:0;
+}
+
+#profile2 #review
+{
+	border: 2px solid black;
+	border-bottom:0;
+	border-top:0;
+	border-left:0;
+	width:15%;
+	padding-top:150px;
+	padding-bottom:464px;
+	float:left;
+	border-left:0;
+
+}
+
+#profile2 #review h2
+{
+	padding-left: 20px;
+}
+#profile2 #reviews
+{
+	display:inline-block;
+	width:75%;
+	border-bottom:0;
+	padding-left: 2%;
+}
+
+
+#profile3{
+	border-left: 2px solid #000000;
+	border-bottom:2px solid black;
+	border-top:0;
+}
+
+#profile3 #follower
+{
+	border: 2px solid black;
+	border-bottom:0;
+	border-top:0;
+	border-left:0;
+	width:15%;
+	padding-top:100px;
+	padding-bottom:240px;
+	float:left;
+	border-left:0;
+
+}
+
+#profile3 #follower h2
+{
+	padding-left: 20px;
+}
+#profile3 #followers
+{
+	display:inline-block;
+	width:75%;
+	border-bottom:0;
+	padding-left: 2%;
+}
+
+#profile3 #followers p
+{
+	font-size:20px;
+}
+
+#profile3 #followers img
+{
+	width:100px;
+	height:100px;
+}
+
+#homeTop {
+	border: 2px solid black;
+	background-color: #AFEEEE;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.homeSection{
+	border-top: 1px solid black;
+	padding-left: 15px;
+	font-family: calibri;
+}
+
+#homeTop h2 {
+	text-align: center;
+}
+
+.homeSection h2 {
+	text-align: center;
+}
+
+.homeSection a {
+	text-decoration: none;
+	color: black;
+}
+
+.homeSection a:hover {
+	text-decoration: underline;
+}
+
+#appSection p {
+	padding: 40px;
+	float: left;
+}

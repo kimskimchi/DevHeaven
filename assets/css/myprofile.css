@@ -1,0 +1,62 @@
+body{
+	padding: 0; 
+	margin: 0;
+	font-family: Rockwell, serif;
+}
+
+
+section{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+#wrapper{
+	margin-top: 50px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#profileTop{
+	margin-bottom: 50px;
+	margin-top: 0;
+	text-align: center;
+}
+
+#profileTop h2{
+	padding: 20px 0 20px 0; 
+	margin: 0; 
+}
+
+
+#detail{
+/*	border-left: 2px solid #000000;
+	border-bottom:2px solid black;*/
+	border-top:1px solid #ddd;
+	display:inline-block;
+	border-bottom:0;
+	padding: 30px 100px 30px 100px;
+}
+#detail h2{
+	padding-bottom: 10px;
+}
+#detail p{
+	padding-top: 3px;
+}
+
+
+#edit{
+/*	border-left: 2px solid #000000;
+	border-bottom:2px solid black;*/
+	border-top:1px solid #ddd;
+	display:inline-block;
+	border-bottom:0;
+	padding: 30px 100px 30px 100px;
+}
+
+#editButton{
+	left:45%;
+}

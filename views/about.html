@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <link href="css/about.css" type="text/css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="scripts/jquery-2.2.4.min.js" defer></script><!-- jQuery should be first -->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="dashboard">DevHeaven</a>
+            </div>
+            <p class="navbar-text navbar-right"> Logged in as {{ session.username }} &nbsp &nbsp &nbsp <a href="/logout">Logout &nbsp &nbsp &nbsp</a></p>
+          </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li><a href="/browse">Browse</a></li>
+                <li><a href="/myapps">My Apps</a></li>
+                <li><a href="/myprojects">My Projects</a></li>
+                <li><a href="/myprofile">My Profile</a></li>
+                <li><a href="/searchuser">Search User</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <h2>About</h2>
+            <p>
+                Founded by four students, the goal of the website is to let developers test their
+                 apps with other users.  With a simple intuitive design, users are able to look for
+                 the apps they are interested in testing, and allow developers to be up to date
+                 with their app testers.  As a platform for both testers and developers, it features
+                 optional incentives by developers, and creates an atmosphere of choice for developers
+                 and testers alike.
+            </p>
+            
+            
+            <h2>Help</h2>
+            <p>The left sidebar is what allows you to navigate to different pages.</p>
+            <p>To go back to your main page, click on the DevHeaven icon</p>
+            <p>The Browse tab lets you search through a list of apps.  If you are searching for a specific app, type the app name you are looking for in the search bar at the top of the page</p>
+            <p>The My Apps tab lets you look at apps and look at details about it.  If you want to create a new app for people to see and test, there is a button labelled new app. Once you click it, you enter the required information, and press the submit button</p>
+            <p>The My Projects tab allows you to see what apps you are helping out with.  It will display the app name, the author, and a short summary of what the app is about.</p>
+            <p>The My Profile tab allows you to review your profile and information.  There is also a button to allow you to make changes to your information</p>
+            <p>If you want to search for a specific user, use the Search user tab, and type in there name.  For each user, it will show some information about them.</p>
+            <p>The logout button is on the top right of the page which will take you back to the home screen</p>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+</body>
+
+</html>
